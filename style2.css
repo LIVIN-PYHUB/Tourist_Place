@@ -1,0 +1,292 @@
+*
+body{
+	background-image: url("mald-jan.jpg");
+	background-position: top;
+    background-repeat: no-repeat;
+    padding-top:  -30%;
+    text-align: center;
+
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.sidebar
+{
+	position: absolute;
+	left: -250px;
+	width: 250px;
+	height: 59%;
+	background: #042331;
+	transition: all .5s ease;
+}
+.sidebar header
+{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    background: #063146;
+    user-select: none; 
+}
+.sidebar ul a
+{
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 50px;
+	font-size: 20px;
+	color-left: 40px;
+	box-sizing: border-box;
+	border-top: 2px solid rgba(255,255,255,.1);
+	border-bottom: 1px solid black;
+	transition: .5s;
+} 
+ul li:hover a
+{
+	padding-left: 50px;
+}
+.sidebar ul a i
+{
+    margin-right: 16px;
+}
+#check
+{
+	display: none;
+}
+label #btn
+{
+	left: 40px;
+	top: 25px;
+	font-size: 35px;
+	color: white;
+	padding: 6px 12px;
+	transition: all .5s;
+
+}
+#check:checked ~ .sidebar
+{
+	left: 0;
+}
+
+.header img
+{
+	width: 120px;
+	size: 400px;
+    left: 300px;
+}
+.login-btn
+{
+	width: 100px;
+	padding: 5px 0;
+	background-image: linear-gradient(#c0c0c0,#c0c0c0);
+	outline: none !important;
+	border: 2px solid #fff;
+	border-radius: 50px; 
+	float: right;
+
+}
+.marquee
+{
+	font-size: 12px 0;
+}
+.form-control
+{
+	width: 90px;
+    padding: 6px;
+	border: 0 !important;
+	border-radius: 30px!important;
+	margin: 2px;
+	box-shadow: none !important;
+}
+.input-group
+{
+	width: 90%;
+	max-width: 500px;
+	border-radius: 30px;
+	margin: auto;
+	padding: 2px;
+}
+.input-group-text 
+{
+	width: 80px;
+	text-align: center;
+	background-image: linear-gradient(#00ff7e,#1f3d90);
+	border: 0 !important;
+	padding: 0 !important;
+	border-radius: 20px !important;
+	box-shadow: none;
+}
+.header h1
+{
+padding-top: 65px;
+padding-bottom: 0;
+font-size: 45px;
+
+}
+.header p
+{
+	margin: 18px 0;
+	padding-top: 10px;
+	padding-bottom: 0;
+	font-size: 25px;
+}
+/*featres*/
+
+.features
+{
+padding: 100px 0;
+padding-top: 100px;
+font-size: 10px;
+color: black;
+background-color: white;
+}
+h1
+{
+	padding-top: 5px;
+	text-align: center;
+	padding: bottom: 30px;  
+	color: black !important;
+	background-color: none;
+
+}
+.features-img img
+{
+	width: 100%;
+}
+.price
+{
+	width: 50px;
+	height: 50px;
+	background: #ff5722;
+	color: #fff;
+	font-weight: 700;
+    border-radius: 60%;
+    padding: 15px;
+    box-shadow: 0 0 10px 1px rgba(32,73,214,0,18);
+    position: absolute;
+    left: 300px;
+    bottom: -30px;
+
+}
+.features-img
+{
+	position: relative;
+}
+.rating
+{
+	padding: 3px;
+	float: right;
+	background: #fff;
+	bottom: -1px;
+	right: 30;
+	position: absolute;
+}
+.features .fa
+{
+    font-size: 15px;
+    color: #ff5722;
+}
+.feature-details
+{
+	padding: 0px;
+	font-size: 15px;
+	text-align: justify;
+}
+.feature-details
+{
+	font-weight: 600;
+	margin-top: 20px;
+}
+.feature-details .fa
+{
+	margin-right: 6px;
+
+}
+.features-box
+{
+	box-shadow: 0 0 10px 1px rgba(37,73,214,0,18);
+	margin-bottom: 30px;
+}
+.gallery
+{
+	padding: 100px 0;
+	background: white;
+}
+.gallery-box img
+{
+	width: 100%;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 2s;
+}
+.gallery-box img:hover
+{
+	transform: scale(1.1);
+}
+.gallery-box h4
+{
+	display: block;
+	color: #fff;
+	text-shadow: -2px 2px 2px #000;
+	font-weight: 600;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50px);
+	
+}
+.gallery-box
+{
+	position: relative;
+	margin-top: 30px;
+
+}
+.user-Bank
+{
+	padding: 200px 0;
+}
+.footer
+{
+	padding: 100px 20px 30px;
+	background-image: linear-gradient(#2d557d,#9610fb);
+	color: white;
+}
+.footer-logo
+{
+	width: 150px;
+	margin-top: -30px;
+	margin-bottom: 15px;
+
+}
+.footer h4
+{
+	text-align: left;
+	margin-top: 45px;
+	margin-bottom: 30px;
+
+}
+.footer p
+{
+	font-size: 15px;
+	text-align: justify;
+	padding-right: 45px;
+}
+.footer .row .fa
+{
+	padding-right: 20px;
+	font-size: 15px;
+
+}
+.footer hr
+{
+	margin-top: 10px;
+	background: #efefef;
+}
+.footer .copyright
+{
+	text-align: center;
+}
